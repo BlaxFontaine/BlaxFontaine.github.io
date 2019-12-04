@@ -1,0 +1,97 @@
+body {
+  background-color: #131415 !important;
+  font-family: 'Josefin Sans', sans-serif !important;
+}
+
+.container {
+  max-width: 1140px;
+  margin: auto;
+  text-align: center;
+}
+
+.title:hover, .main-title:hover {
+  text-decoration: none;
+}
+
+.main-title, .title {
+  font-family: 'Poiret One', cursive;
+  text-decoration: none;
+}
+
+.main-title {
+  font-size: 36px;
+  font-weight: bold;
+  text-align:center;
+}
+
+.title {
+  margin: 0;
+  text-align: center;
+  // margin-top: 30px;
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.home-wrapper {
+  margin-top: calc(50vh - 130px);
+}
+
+.hide {
+  display: none;
+}
+
+.jump::before {
+  content: "";
+  display: block;
+  height: 180px; /* fixed header height*/
+  margin: -180px 0 0; /* negative fixed header height */
+}
+
+.me-wrapper {
+  padding: 20px 0 20px 0;
+}
+
+.about-me {
+  padding: 40px 0 40px 0;
+}
+
+.content-wrapper {
+  color: white !important;
+  padding-bottom: 70px;
+}
+
+.content-wrapper h2 {
+  text-transform: uppercase;
+}
+
+.content-wrapper p {
+  font-size: 18px;
+}
+
+.profile-section {
+  margin-top: 50px;
+}
+
+
+.footer {
+  height: 70px;
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  font-size: 24px;
+  display: inline;
+  list-style: none;
+  margin: 10px;
+  padding: 0;
+}
+
+ul {
+  padding: 0;
+  margin-bottom: 0 !important;
+  display: flex;
+  align-items: center;
+}

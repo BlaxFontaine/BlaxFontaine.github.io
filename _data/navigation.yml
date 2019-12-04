@@ -1,0 +1,8 @@
+- name: About me
+  link: me
+- name: Projects
+  link: projects
+- name: Education
+  link: education
+- name: Skills
+  link: skills
