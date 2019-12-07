@@ -49,7 +49,6 @@ $(function() {
 
 const title = document.querySelector('.banner_title')
 
-
 //////// Light //////////
 document.onmousemove = function(e) {
   let x = e.pageX - window.innerWidth/2;
