@@ -1,17 +1,17 @@
-const initUpdateNavbarOnScroll = () => {
-  const navbar = document.querySelector('.navbar');
-  if (navbar) {
-    window.addEventListener('scroll', () => {
-        if (window.scrollY > 400) {
-        navbar.classList.add('nav-black');
-      } else {
-        navbar.classList.remove('nav-black');
-      }
-    });
-  }
-}
+// const initUpdateNavbarOnScroll = () => {
+//   const navbar = document.querySelector('.navbar');
+//   if (navbar) {
+//     window.addEventListener('scroll', () => {
+//         if (window.scrollY > 400) {
+//         navbar.classList.add('nav-black');
+//       } else {
+//         navbar.classList.remove('nav-black');
+//       }
+//     });
+//   }
+// }
 
-initUpdateNavbarOnScroll();
+// initUpdateNavbarOnScroll();
 
 var w = Math.round($(document).width() / 255);
 var h = Math.round($(document).height() / 255);
