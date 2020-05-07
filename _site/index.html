@@ -4,28 +4,26 @@
     <meta charset="utf-8">
     <title>Valérie Gehlé | Fullstack developer</title>
     <link rel="stylesheet" href="/assets/css/styles.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Megrim|Poiret+One" rel="stylesheet">
   </head>
   <body id="top">
     <div class="fade-in">
-      <nav class="navbar navbar-expand-lg nav-black">
+      <nav class="navbar navbar-expand-lg">
   <div class="container">
-    <a class="navbar-brand" href="#top">Valérie Gehlé</a>
+    <a class="js-scrollTo navbar-brand" href="#top">Valérie Gehlé</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
     </button>
     <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
       <div class="navbar-nav">
         
-            <a href="#me" class="nav-item nav-link">About me</a>
+            <a href="#me" class="js-scrollTo nav-item nav-link">About me</a>
           
-            <a href="#projects" class="nav-item nav-link">Projects</a>
+            <a href="#projects" class="js-scrollTo nav-item nav-link">Projects</a>
           
-            <a href="#education" class="nav-item nav-link">Education</a>
-          
-            <a href="#skills" class="nav-item nav-link">Skills</a>
+            <a href="#skills" class="js-scrollTo nav-item nav-link">Skills</a>
           
       </div>
     </div>
@@ -35,230 +33,230 @@
       <section class="banner_section">
   <h1 class="banner_title">
     <p>Valérie Gehlé</p>
-    Valérie Gehlé
   </h1>
   <p class="banner_section_subtitle">Fullstack web developer</p>
 </section>
 
       <div class="container">
         <div class="content-wrapper">
-  <div>
-    <div id="me" class="me-wrapper">
-    <h2 class="jump">About me</h2>
-    <p>The first time I have coded was in 2006 on Matlab, as I was in preparatory classes for engineer schools. Since then, programming has kept waving at me (statistics on R in engineer school, projects on VBA an SQL during internships). Today, I am a proud junior dev who just finished Le Wagon intensive FullStack bootcamp! I am driven by great team work and the satisfaction you get after having spent energy on a clean and DRY code that works!</p>
+  <div id="me" class="profile-section">
+    <div class="me-wrapper">
+      <h2>About me</h2>
+      <div class="about-me">
+        <p>HELLO, MY NAME IS VALERIE. I am a fullstack web developer and an engineer. The first time I coded was in 2006 on Matlab, while I was in preparatory classes for engineer schools. Since then, programming has kept waving at me (statistics on R in engineer school, projects on VBA and SQL during internships).</p>
+        <p>After finishing Le Wagon FullStack bootcamp in 2019, I decided to push it further by following the Code&Go bootcamp at EPITECH.</p>
+        <p>I always work with a growth mindset which allows me to see difficulties as challenges, I am a fast learner, driven by great team work, emphatic and determined colleagues and the satisfaction you get after having spent energy on a clean and DRY code that works!</p>
+      </div>
+    </div>
   </div>
-</div>
+  <div id ="projects" class="profile-section">
+    <h2>Projects</h2>
 
-  <div>
-    <div>
-  <h2 id="projects" class="jump">Projects</h2>
-  <div class="cards">
-    
-      <div class="card-container">
-        <div class="row scaler" style="animation-delay:0.2s">
-          <div class="col-md-5 col-lg-4">
-            <div class="card-image">
-              <img class="project-screenshot" src="assets/images/derbysquad.png" alt="">
-            </div>
-          </div>
-          <div class="col-md-7 col-lg-8">
-            <div class="card-body">
-              <h3>DerbySquad</h3>
-              <p class="card-text">Website displaying all the roller derby leagues in the world. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate odio ipsum necessitatibus.</p>
-              <p class="card-tech">Tech: Ruby on Rails, React, Webpack, PostGreSQL, Bootstrap, GitHub, Cloudinary, Trello</p>
-            </div>
-          </div>
+
+  <div class="card mb-3 w-100">
+    <div class="row scaler no-gutters" style="animation-delay:0.2s">
+      <div class="col-md-5 vertical-img">
+        <img src="assets/images/screenshot_kraken.png" class="card-img" alt="...">
+      </div>
+      <div class="col-md-7">
+        <div class="card-body left">
+          <h4 class="card-title text-muted">KRAKEN BLOG</h4>
+          <p class="card-text">KRAKEN BLOG is a web app allowing members to post short messages and follow other members.</p>
+          <p class="card-text text-muted">CONTEXT: Project developed in a team of 2 as part of EPITECH Code & Go's bootcamp.</p>
+          <p class="card-text">TECH: MERN stack (MongoDB, Express, React JS, Node.js), Bootstrap, Git, GitHub, Trello</p>
+          <p>
+            <a href="https://github.com/BlaxFontaine/KrakenBlog" class="link" target="_blank"><span>See on github</span></a>
+            
+            <span class="text-muted" style="margin-left: 3em; font-style: italic;"><small>not online yet</small></span>
+            
+          </p>
         </div>
       </div>
-    
-      <div class="card-container">
-        <div class="row scaler" style="animation-delay:0.3s">
-          <div class="col-md-5 col-lg-4">
-            <div class="card-image">
-              <img class="project-screenshot" src="assets/images/derby-match-home.png" alt="">
-            </div>
-          </div>
-          <div class="col-md-7 col-lg-8">
-            <div class="card-body">
-              <h3>DERBY MATCH</h3>
-              <p class="card-text"><a href="https://youtu.be/HZ87deV1-pY?t=4431" class="link" target="_blank"><span>Derby match</span></a> is a website developed in two weeks during Le wagon bootcamp. It helps <a href="https://www.youtube.com/watch?list=PLgt96IetJvxItxb-jrDjDb6r_DQKgQ70l&v=OId6gTd2LCM" class="link" target="_blank"><span>roller derby</span></a> teams to find other teams to play against and to plan games.</p>
-              <p class="card-tech">Tech: Ruby on Rails, Webpack, PostGreSQL, Bootstrap, GitHub, Cloudinary</p>
-            </div>
-          </div>
+    </div>
+  </div>
+
+  <div class="card mb-3 w-100">
+    <div class="row scaler no-gutters" style="animation-delay:0.3s">
+      <div class="col-md-5 vertical-img">
+        <img src="assets/images/screenshot_catoys.png" class="card-img" alt="...">
+      </div>
+      <div class="col-md-7">
+        <div class="card-body left">
+          <h4 class="card-title text-muted">CATOYS</h4>
+          <p class="card-text">CATOYS is an online shop with toys for cats.</p>
+          <p class="card-text text-muted">CONTEXT: Project realised by me as part of EPITECH Code & Go's bootcamp.</p>
+          <p class="card-text">TECH: MongoDB, Express, Node.js, Bootstrap, Git, GitHub, Trello</p>
+          <p>
+            <a href="https://github.com/BlaxFontaine/CATOYS" class="link" target="_blank"><span>See on github</span></a>
+            
+            <a href="https://catoys.herokuapp.com/" class="link" target="_blank" style="margin-left: 3em;"><span>Visit online</span></a>
+            
+          </p>
         </div>
       </div>
-    
-      <div class="card-container">
-        <div class="row scaler" style="animation-delay:0.4s">
-          <div class="col-md-5 col-lg-4">
-            <div class="card-image">
-              <img class="project-screenshot" src="assets/images/algue.jpg" alt="">
-            </div>
-          </div>
-          <div class="col-md-7 col-lg-8">
-            <div class="card-body">
-              <h3>YogaDLC</h3>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate odio ipsum necessitatibus doloremque facere tempore voluptatem, reprehenderit at obcaecati eius quibusdam dolorem corrupti iure ut accusamus officia architecto temporibus nesciunt.</p>
-              <p class="card-tech">Tech: Trello</p>
-            </div>
-          </div>
+    </div>
+  </div>
+
+  <div class="card mb-3 w-100">
+    <div class="row scaler no-gutters" style="animation-delay:0.4s">
+      <div class="col-md-5 vertical-img">
+        <img src="assets/images/screenshot_amnesia.png" class="card-img" alt="...">
+      </div>
+      <div class="col-md-7">
+        <div class="card-body left">
+          <h4 class="card-title text-muted">Amnesia</h4>
+          <p class="card-text">Amnesia is a web app for people who want to create and share movie lists.</p>
+          <p class="card-text text-muted">CONTEXT: Project developed in a team of 2 as part of EPITECH Code & Go's bootcamp.</p>
+          <p class="card-text">TECH: PHP7, Symfony4, The Movie Database API, Bootstrap, Git, GitHub, Trello</p>
+          <p>
+            <a href="https://github.com/Jean-ChristopheGdn/my_movie_list" class="link" target="_blank"><span>See on github</span></a>
+            
+            <span class="text-muted" style="margin-left: 3em; font-style: italic;"><small>not online yet</small></span>
+            
+          </p>
         </div>
       </div>
-    
+    </div>
   </div>
-</div>
+
+  <div class="card mb-3 w-100">
+    <div class="row scaler no-gutters" style="animation-delay:0.5s">
+      <div class="col-md-5 vertical-img">
+        <img src="assets/images/derbysquad.png" class="card-img" alt="...">
+      </div>
+      <div class="col-md-7">
+        <div class="card-body left">
+          <h4 class="card-title text-muted">DerbySquad</h4>
+          <p class="card-text">Website displaying all the roller derby leagues in the world.</p>
+          <p class="card-text text-muted">CONTEXT: Personal project developed on my own.</p>
+          <p class="card-text">TECH: Ruby on Rails, React, Webpack, PostGreSQL, Bootstrap, Git, GitHub, Cloudinary, Trello</p>
+          <p>
+            <a href="https://github.com/BlaxFontaine/derbysquad" class="link" target="_blank"><span>See on github</span></a>
+            
+            <span class="text-muted" style="margin-left: 3em; font-style: italic;"><small>not online yet</small></span>
+            
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card mb-3 w-100">
+    <div class="row scaler no-gutters" style="animation-delay:0.6s">
+      <div class="col-md-5 vertical-img">
+        <img src="assets/images/derby-match-home.png" class="card-img" alt="...">
+      </div>
+      <div class="col-md-7">
+        <div class="card-body left">
+          <h4 class="card-title text-muted">DERBY MATCH</h4>
+          <p class="card-text">DERBY MATCH is a website developed that helps roller derby teams to find other teams and plan games. <a href="https://youtu.be/HZ87deV1-pY?t=4431" class="link" target="_blank"><span>Watch video presentation</span></a></p>
+          <p class="card-text text-muted">CONTEXT: Project developed in a team of 4 as part of Le Wagon bootcamp.</p>
+          <p class="card-text">TECH: Ruby on Rails, Webpack, PostGreSQL, Bootstrap, Git, GitHub, Cloudinary</p>
+          <p>
+            <a href="https://github.com/Maxlafitte/derby-match" class="link" target="_blank"><span>See on github</span></a>
+            
+            <span class="text-muted" style="margin-left: 3em; font-style: italic;"><small>not online yet</small></span>
+            
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
 
   </div>
+  <div id="skills" class="profile-section">
+    <h2>Skills</h2>
+<div class="card-columns" style="background-color: transparent !important">
+  
   <div>
-    <div>
-  <h2 id="education" class="jump">Education</h2>
-  
-    <div class="edu">
-      <div class="year">
-        <p>in progress</p>
-      </div>
-      <div class="edu-content">
-        <p>React developer</p>
-        <p><small>Le Wagon (online)</small></p>
-        <p>Course on React and articulation with rails.</p>
-      </div>
-    </div>
-  
-    <div class="edu">
-      <div class="year">
-        <p>2019</p>
-      </div>
-      <div class="edu-content">
-        <p>Fullstack web developer</p>
-        <p><small>Le Wagon, Paris</small></p>
-        <p>9-week intensive coding bootcamp learning HTML, CSS, Bootstrap, JavaScript ES6, SQL, git, GitHub, Heroku and Ruby on Rails.</p>
-      </div>
-    </div>
-  
-    <div class="edu">
-      <div class="year">
-        <p>2017</p>
-      </div>
-      <div class="edu-content">
-        <p>Front end developer</p>
-        <p><small>Treehouse (online)</small></p>
-        <p>Course on the basics of front end web development with HTML, CSS and JavaScript.</p>
+    <div class="card text-white h-100">
+      <div class="card-header border-dark">BACK END</div>
+      <div class="card-body">
+        
+          <p><img class="icon" src="assets/images/icon_ruby.png"> Ruby</p>
+        
+          <p><img class="icon" src="assets/images/icon_rails.png"> Rails</p>
+        
+          <p><img class="icon" src="assets/images/icon_php.png"> PHP7</p>
+        
+          <p><img class="icon" src="assets/images/icon_symfony.png"> Symfony4</p>
+        
+          <p><img class="icon" src="assets/images/icon_c.png"> C</p>
+        
+          <p><img class="icon" src="assets/images/icon_python.png"> Python</p>
+        
+          <p><img class="icon" src="assets/images/icon_flask.png"> Flask</p>
+        
+          <p><img class="icon" src="assets/images/icon_express.png"> Express</p>
+        
+          <p><img class="icon" src="assets/images/icon_node.png"> NodeJS</p>
+        
+          <p><img class="icon" src="assets/images/icon_mongoose.png"> Mongoose</p>
+        
       </div>
     </div>
-  
-    <div class="edu">
-      <div class="year">
-        <p>2008 - 2012</p>
-      </div>
-      <div class="edu-content">
-        <p>Agronomy engineer</p>
-        <p><small>ENSAT, Toulouse</small></p>
-        <p></p>
-      </div>
-    </div>
-  
-    <div class="edu">
-      <div class="year">
-        <p>2006 - 2008</p>
-      </div>
-      <div class="edu-content">
-        <p>Preparatory classes to engineer schools (biology)</p>
-        <p><small>Lycée Jean Rostand, Strasbourg</small></p>
-        <p></p>
-      </div>
-    </div>
-  
-</div>
-
   </div>
+  
   <div>
-    <div>
-  <h2 id="skills" class="jump">Skills</h2>
-  <div class="skills-container">
-    
-    <div class="skill-content">
-      <img src="assets/images/thumb_ruby.png" alt="" class="skill-img">
-      <p class="skill-text">Ruby</p>
+    <div class="card text-white h-100">
+      <div class="card-header border-dark">DATABASE</div>
+      <div class="card-body">
+        
+          <p><img class="icon" src="assets/images/icon_postgresql.png"> PostgreSQL</p>
+        
+          <p><img class="icon" src="assets/images/icon_mysql.png"> MySQL/MariaDB</p>
+        
+          <p><img class="icon" src="assets/images/icon_mongodb.png"> MongoDB</p>
+        
+      </div>
     </div>
-    
-    <div class="skill-content">
-      <img src="assets/images/thumb_ruby-on-rails.png" alt="" class="skill-img">
-      <p class="skill-text">Rails</p>
-    </div>
-    
-    <div class="skill-content">
-      <img src="assets/images/thumb_html5.png" alt="" class="skill-img">
-      <p class="skill-text">HTML5</p>
-    </div>
-    
-    <div class="skill-content">
-      <img src="assets/images/thumb_postgresql.png" alt="" class="skill-img">
-      <p class="skill-text">PostGreSQL</p>
-    </div>
-    
-    <div class="skill-content">
-      <img src="assets/images/thumb_webpack.png" alt="" class="skill-img">
-      <p class="skill-text">Webpack</p>
-    </div>
-    
-    <div class="skill-content">
-      <img src="assets/images/thumb_jekyll.jpeg" alt="" class="skill-img">
-      <p class="skill-text">Jekyll</p>
-    </div>
-    
-    <div class="skill-content">
-      <img src="assets/images/thumb_javascript.jpeg" alt="" class="skill-img">
-      <p class="skill-text">JS / ES6</p>
-    </div>
-    
-    <div class="skill-content">
-      <img src="assets/images/thumb_css3.png" alt="" class="skill-img">
-      <p class="skill-text">CSS / SASS</p>
-    </div>
-    
-    <div class="skill-content">
-      <img src="assets/images/thumb_bootstrap.png" alt="" class="skill-img">
-      <p class="skill-text">Bootstrap</p>
-    </div>
-    
-    <div class="skill-content">
-      <img src="assets/images/thumb_react.png" alt="" class="skill-img">
-      <p class="skill-text">React</p>
-    </div>
-    
-    <div class="skill-content">
-      <img src="assets/images/thumb_git.png" alt="" class="skill-img">
-      <p class="skill-text">Git</p>
-    </div>
-    
-    <div class="skill-content">
-      <img src="assets/images/thumb_github.png" alt="" class="skill-img">
-      <p class="skill-text">Github</p>
-    </div>
-    
-    <div class="skill-content">
-      <img src="assets/images/thumb_heroku.png" alt="" class="skill-img">
-      <p class="skill-text">Heroku</p>
-    </div>
-    
-    <div class="skill-content">
-      <img src="assets/images/thumb_cloudinary.png" alt="" class="skill-img">
-      <p class="skill-text">Cloudinary</p>
-    </div>
-    
-    <div class="skill-content">
-      <img src="assets/images/thumb_slack.png" alt="" class="skill-img">
-      <p class="skill-text">Slack</p>
-    </div>
-    
-    <div class="skill-content">
-      <img src="assets/images/thumb_trello.png" alt="" class="skill-img">
-      <p class="skill-text">Trello</p>
-    </div>
-    
   </div>
+  
+  <div>
+    <div class="card text-white h-100">
+      <div class="card-header border-dark">FRONT END</div>
+      <div class="card-body">
+        
+          <p><img class="icon" src="assets/images/icon_html.png"> HTML5</p>
+        
+          <p><img class="icon" src="assets/images/icon_css.png"> CSS / SASS</p>
+        
+          <p><img class="icon" src="assets/images/icon_bootstrap.png"> Bootstrap</p>
+        
+          <p><img class="icon" src="assets/images/icon_js.png"> JS / ES6</p>
+        
+          <p><img class="icon" src="assets/images/icon_webpack.png"> Webpack</p>
+        
+          <p><img class="icon" src="assets/images/icon_react.png"> React JS</p>
+        
+          <p><img class="icon" src="assets/images/icon_figma.png"> Figma</p>
+        
+      </div>
+    </div>
+  </div>
+  
+  <div>
+    <div class="card text-white h-100">
+      <div class="card-header border-dark">MISCELLANEOUS</div>
+      <div class="card-body">
+        
+          <p><img class="icon" src="assets/images/icon_git.png"> Git</p>
+        
+          <p><img class="icon" src="assets/images/icon_github.png"> Github</p>
+        
+          <p><img class="icon" src="assets/images/icon_heroku.png"> Heroku</p>
+        
+          <p><img class="icon" src="assets/images/icon_cloudinary.png"> Cloudinary</p>
+        
+          <p><img class="icon" src="assets/images/icon_slack.png"> Slack</p>
+        
+          <p><img class="icon" src="assets/images/icon_trello.png"> Trello</p>
+        
+      </div>
+    </div>
+  </div>
+  
 </div>
-
   </div>
 </div>
 
@@ -277,9 +275,10 @@
 
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="assets/js/application.js"></script>
   </body>
 </html>
