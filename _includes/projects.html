@@ -13,11 +13,17 @@
           <p class="card-text text-muted">CONTEXT: {{item.context}}</p>
           <p class="card-text">TECH: {{item.tech}}</p>
           <p>
+            {% if item.github %}
             <a href="{{item.github}}" class="link" target="_blank"><span>See on github</span></a>
-            {% if item.url %}
-            <a href="{{item.url}}" class="link" target="_blank" style="margin-left: 3em;"><span>Visit online</span></a>
             {% else %}
+            <span></span>
+            {% endif %}
+            {% if item.url == "not online yet") %}
             <span class="text-muted" style="margin-left: 3em; font-style: italic;"><small>not online yet</small></span>
+            {% elsif item.url == "(vide)" %}
+            <span></span>
+            {% else %}
+            <a href="{{item.url}}" class="link" target="_blank" style="margin-left: 3em;"><span>Visit online</span></a>
             {% endif %}
           </p>
         </div>

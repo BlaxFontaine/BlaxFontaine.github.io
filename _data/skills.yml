@@ -58,3 +58,7 @@
     name: Slack
   - icon: assets/images/icon_trello.png
     name: Trello
+  - icon: assets/images/icon_linux.png
+    name: Linux
+  - icon: assets/images/icon_agile.png
+    name: Agile

@@ -1,15 +1,15 @@
 - name: KRAKEN BLOG
   img: assets/images/screenshot_kraken.png
   description: KRAKEN BLOG is a web app allowing members to post short messages and follow other members.
-  context:  Project developed in a team of 2 as part of EPITECH Code & Go's bootcamp.
+  context:  Project developed in a team of 2 as part of EPITECH Code & Go's bootcamp. 6 days rush.
   tech: MERN stack (MongoDB, Express, React JS, Node.js), Bootstrap, Git, GitHub, Trello
-  url:
+  url: not online yet
   github: https://github.com/BlaxFontaine/KrakenBlog
   delay: 0.2s
 - name: CATOYS
   img: assets/images/screenshot_catoys.png
   description: CATOYS is an online shop with toys for cats.
-  context: Project realised by me as part of EPITECH Code & Go's bootcamp.
+  context: Project realised by me as part of EPITECH Code & Go's bootcamp. 1 day rush.
   tech: MongoDB, Express, Node.js, Bootstrap, Git, GitHub, Trello
   url: https://catoys.herokuapp.com/
   github: https://github.com/BlaxFontaine/CATOYS
@@ -17,24 +17,32 @@
 - name: Amnesia
   img: assets/images/screenshot_amnesia.png
   description: Amnesia is a web app for people who want to create and share movie lists.
-  context: Project developed in a team of 2 as part of EPITECH Code & Go's bootcamp.
+  context: Project developed in a team of 2 as part of EPITECH Code & Go's bootcamp. 7 days rush.
   tech: PHP7, Symfony4, The Movie Database API, Bootstrap, Git, GitHub, Trello
-  url:
+  url: not online yet
   github: https://github.com/Jean-ChristopheGdn/my_movie_list
   delay: 0.4s
+- name: YogaDLC
+  img: assets/images/YogaDLCprototype.png
+  description: Prototyping of a yoga class service. Worked with the client to define offer, product pitch, UX persona and user journey.
+  context: Freelance mission.
+  tech: Google Sheets, Trello
+  url: (vide)
+  github:
+  delay: 0.5s  
 - name: DerbySquad
   img: assets/images/derbysquad.png
   description: Website displaying all the roller derby leagues in the world.
   context: Personal project developed on my own.
   tech: Ruby on Rails, React, Webpack, PostGreSQL, Bootstrap, Git, GitHub, Cloudinary, Trello
-  url:
+  url: not online yet
   github: https://github.com/BlaxFontaine/derbysquad
-  delay: 0.5s
+  delay: 0.6s
 - name: DERBY MATCH
   img: assets/images/derby-match-home.png
   description: DERBY MATCH is a website developed that helps roller derby teams to find other teams and plan games. <a href="https://youtu.be/HZ87deV1-pY?t=4431" class="link" target="_blank"><span>Watch video presentation</span></a>
-  context: Project developed in a team of 4 as part of Le Wagon bootcamp.
+  context: Project developed in a team of 4 as part of Le Wagon bootcamp. 2 weeks rush.
   tech: Ruby on Rails, Webpack, PostGreSQL, Bootstrap, Git, GitHub, Cloudinary
-  url:
+  url: not online yet
   github: https://github.com/Maxlafitte/derby-match
-  delay: 0.6s
+  delay: 0.7s
