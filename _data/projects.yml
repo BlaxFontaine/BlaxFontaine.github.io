@@ -1,7 +1,7 @@
 - name: KRAKEN BLOG
   img: assets/images/screenshot_kraken.png
   description: KRAKEN BLOG is a web app allowing members to post short messages and follow other members.
-  context:  Project developed in a team of 2 as part of EPITECH Code & Go's bootcamp. 6 days rush.
+  context:  Project developed in a team of 2 as part of EPITECH Code & Go's bootcamp. 6 day rush.
   tech: MERN stack (MongoDB, Express, React JS, Node.js), Bootstrap, Git, GitHub, Trello
   url: not online yet
   github: https://github.com/BlaxFontaine/KrakenBlog
@@ -17,7 +17,7 @@
 - name: Amnesia
   img: assets/images/screenshot_amnesia.png
   description: Amnesia is a web app for people who want to create and share movie lists.
-  context: Project developed in a team of 2 as part of EPITECH Code & Go's bootcamp. 7 days rush.
+  context: Project developed in a team of 2 as part of EPITECH Code & Go's bootcamp. 7 day rush.
   tech: PHP7, Symfony4, The Movie Database API, Bootstrap, Git, GitHub, Trello
   url: not online yet
   github: https://github.com/Jean-ChristopheGdn/my_movie_list
@@ -40,8 +40,8 @@
   delay: 0.6s
 - name: DERBY MATCH
   img: assets/images/derby-match-home.png
-  description: DERBY MATCH is a website developed that helps roller derby teams to find other teams and plan games. <a href="https://youtu.be/HZ87deV1-pY?t=4431" class="link" target="_blank"><span>Watch video presentation</span></a>
-  context: Project developed in a team of 4 as part of Le Wagon bootcamp. 2 weeks rush.
+  description: DERBY MATCH is a website developed that helps roller derby teams find other teams and plan games. <a href="https://youtu.be/HZ87deV1-pY?t=4431" class="link" target="_blank"><span>Watch video presentation</span></a>
+  context: Project developed in a team of 4 as part of Le Wagon bootcamp. 2 week rush.
   tech: Ruby on Rails, Webpack, PostGreSQL, Bootstrap, Git, GitHub, Cloudinary
   url: not online yet
   github: https://github.com/Maxlafitte/derby-match

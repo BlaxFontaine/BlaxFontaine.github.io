@@ -49,7 +49,7 @@
   - icon: assets/images/icon_git.png
     name: Git
   - icon: assets/images/icon_github.png
-    name: Github
+    name: GitHub
   - icon: assets/images/icon_heroku.png
     name: Heroku
   - icon: assets/images/icon_cloudinary.png
